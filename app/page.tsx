@@ -4,6 +4,8 @@ import { TheorySection } from "@/components/theory-section"
 import { Timeline } from "@/components/timeline"
 import { MatrixSection } from "@/components/matrix-section"
 import { YouthSection } from "@/components/youth-section"
+import { YouthInsights } from "@/components/youthinsights"
+import { ReflectionGame } from "@/components/reflectiongame"
 import { FAQSection } from "@/components/faq-section"
 import { ResourcesSection } from "@/components/resources-section"
 import { Footer } from "@/components/footer"
@@ -17,6 +19,8 @@ export default function Home() {
       <Timeline />
       <MatrixSection />
       <YouthSection />
+      <YouthInsights />
+      <ReflectionGame />
       <FAQSection />
       <ResourcesSection />
       <Footer />
